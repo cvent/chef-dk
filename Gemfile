@@ -45,7 +45,7 @@ group(:omnibus_package) do
   gem "berkshelf", ">= 5.0"
   # Chef 12.8.1 Gem includes some extra files which can break gem installation on
   # windows. For now we are pulling chef from github at the tag as a workaround.
-  gem "chef-provisioning", ">= 2.0"
+  gem "chef-provisioning", ">= 2.7.6"
   gem "chef-provisioning-aws", ">= 2.0"
   gem "chef-provisioning-azure", ">= 0.6.0"
   gem "chef-provisioning-fog", ">= 0.20.0"
