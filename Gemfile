@@ -42,7 +42,7 @@ end
 # at least prevent downgrades beyond that:
 group(:omnibus_package) do
   gem "appbundler", github: "chef/appbundler" # until next release with multiple-gem support
-  gem "berkshelf", ">= 5.0"
+  gem "berkshelf", ">= 5.6.5"
   # Chef 12.8.1 Gem includes some extra files which can break gem installation on
   # windows. For now we are pulling chef from github at the tag as a workaround.
   gem "chef-provisioning", ">= 2.0"
