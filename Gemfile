@@ -49,7 +49,7 @@ group(:omnibus_package) do
   gem "chef-provisioning-aws", ">= 2.0"
   gem "chef-provisioning-azure", ">= 0.6.0"
   gem "chef-provisioning-fog", ">= 0.20.0"
-  gem "chef-provisioning-vagrant", ">= 0.11.0"
+  gem "chef-provisioning-vagrant", ">= 0.12.1"
   gem "chef-vault"
   # The chef version is pinned by "rake dependencies", which grabs the current version from omnibus.
   gem "chef", github: "chef/chef", branch: "v12.15.19"
