@@ -53,7 +53,7 @@ group(:omnibus_package) do
   gem "chef-vault"
   # The chef version is pinned by "rake dependencies", which grabs the current version from omnibus.
   gem "chef", github: "chef/chef", branch: "v12.15.19"
-  gem "cheffish", ">= 4.0"
+  gem "cheffish", ">= 4.1.1"
   gem "chefspec"
   gem "fauxhai"
   gem "foodcritic", ">= 8.0"
