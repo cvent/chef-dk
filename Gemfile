@@ -63,7 +63,7 @@ group(:omnibus_package) do
   gem "kitchen-inspec"
   gem "kitchen-vagrant"
   gem "knife-windows"
-  gem "ohai", ">= 8.13.0"
+  gem "ohai", ">= 8.26.1"
   gem "test-kitchen"
   gem "listen"
   gem "mixlib-install"
