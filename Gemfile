@@ -57,7 +57,7 @@ group(:omnibus_package) do
   gem "chefspec"
   gem "fauxhai"
   gem "foodcritic", ">= 8.0"
-  gem "inspec", ">= 0.17.1"
+  gem "inspec", ">= 0.35.0"
   gem "kitchen-ec2"
   gem "kitchen-dokken"
   gem "kitchen-inspec"
