@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/chef/chef-acceptance.git
-  revision: e92ddae46d2126864698b9c8e4fc4ec2dcc46c55
+  remote: https://github.com/chef/chef-acceptance.git
+  revision: 3877c344098021ac66134e8edb5eb805d14d4643
   specs:
     chef-acceptance (0.2.0)
       mixlib-shellout (~> 2.0)
@@ -10,7 +10,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.4.0)
-    artifactory (2.5.0)
+    artifactory (2.5.2)
     aws-sdk (2.6.14)
       aws-sdk-resources (= 2.6.14)
     aws-sdk-core (2.6.14)
@@ -113,7 +113,7 @@ GEM
     mixlib-authentication (1.4.1)
       mixlib-log
     mixlib-config (2.2.4)
-    mixlib-install (1.2.3)
+    mixlib-install (1.2.4)
       artifactory
       mixlib-shellout
       mixlib-versioning
@@ -236,7 +236,7 @@ DEPENDENCIES
   kitchen-ec2
   kitchen-inspec
   kitchen-vagrant
-  mixlib-install (= 1.2.3)
+  mixlib-install (= 1.2.4)
   rspec-core (= 3.4.4)
   test-kitchen
   windows_chef_zero
@@ -244,4 +244,4 @@ DEPENDENCIES
   winrm-fs
 
 BUNDLED WITH
-   1.12.5
+   2.7.2
