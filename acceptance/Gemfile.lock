@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/chef/chef-acceptance.git
-  revision: e92ddae46d2126864698b9c8e4fc4ec2dcc46c55
+  remote: https://github.com/chef/chef-acceptance.git
+  revision: 3877c344098021ac66134e8edb5eb805d14d4643
   specs:
     chef-acceptance (0.2.0)
       mixlib-shellout (~> 2.0)
@@ -157,22 +157,22 @@ GEM
       retryable (~> 2.0)
       semverse (~> 2.0)
       varia_model (~> 0.6)
-    rspec (3.4.0)
-      rspec-core (~> 3.4.0)
-      rspec-expectations (~> 3.4.0)
-      rspec-mocks (~> 3.4.0)
-    rspec-core (3.4.4)
-      rspec-support (~> 3.4.0)
-    rspec-expectations (3.4.0)
+    rspec (3.13.2)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.6)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
+      rspec-support (~> 3.13.0)
     rspec-its (1.2.0)
       rspec-core (>= 3.0.0)
       rspec-expectations (>= 3.0.0)
-    rspec-mocks (3.4.1)
+    rspec-mocks (3.13.7)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-support (3.4.1)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.7)
     rubyntlm (0.6.1)
     rubyzip (1.2.0)
     safe_yaml (1.0.4)
@@ -237,11 +237,11 @@ DEPENDENCIES
   kitchen-inspec
   kitchen-vagrant
   mixlib-install (= 1.2.3)
-  rspec-core (= 3.4.4)
+  rspec-core (= 3.13.6)
   test-kitchen
   windows_chef_zero
   winrm-elevated
   winrm-fs
 
 BUNDLED WITH
-   1.12.5
+   2.7.2

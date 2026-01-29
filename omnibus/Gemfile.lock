@@ -176,9 +176,9 @@ GEM
       retryable (~> 2.0)
       semverse (~> 2.0)
       varia_model (~> 0.6)
-    rspec-core (3.4.4)
-      rspec-support (~> 3.4.0)
-    rspec-support (3.4.1)
+    rspec-core (3.13.6)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.7)
     ruby-progressbar (1.8.1)
     rubyntlm (0.6.1)
     rubyzip (1.2.0)
@@ -237,9 +237,9 @@ DEPENDENCIES
   omnibus!
   omnibus-software!
   pedump
-  rspec-core (= 3.4.4)
+  rspec-core (= 3.13.6)
   test-kitchen
   winrm-elevated
 
 BUNDLED WITH
-   1.13.2
+   2.7.2
